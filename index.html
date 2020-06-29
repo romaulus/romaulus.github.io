@@ -4,20 +4,22 @@
 <head> 
 <title> мастер </title> 
 <style>
-body, html {
-  height: 100%;
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
 }
-.bg {
-
-  background-image: url("https://66.media.tumblr.com/9d05e286689c51a33c60428302bbcc06/tumblr_p87m1ndnwz1wq23t5o1_500.gifv");
-
-
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 .sansserif {
   font-family: Arial Black, sans-serif;
@@ -26,6 +28,9 @@ body, html {
 </style>
 </head> 
 <body> 
+	<div id="bg">
+  	<img src="https://66.media.tumblr.com/9d05e286689c51a33c60428302bbcc06/tumblr_p87m1ndnwz1wq23t5o1_500.gifv" alt="">
+	</div>
 	<h3>Do you think i'm running a bot farm for my zealots on twitter for Donald J. Trump? 
 	Keep making up funny conspiracy theories about me that leads me for re-electing him. 
 	Weirdo. </h3> 
